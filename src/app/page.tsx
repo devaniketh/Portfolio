@@ -20,9 +20,9 @@ export default function Page() {
             <div className="flex-col flex flex-1 space-y-1.5">
               <BlurFadeText
                 delay={BLUR_FADE_DELAY}
-                className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none"
+                className="text-2xl font-bold tracking-tighter sm:text-5xl xl:text-4xl/none"
                 yOffset={8}
-                text={`Hi, I'm ${DATA.name.split(" ")[0]} 👋`}
+                text={`Hi, I'm ${DATA.name.split(" ")[0]} 🦀`}
               />
               <BlurFadeText
                 className="max-w-[600px] md:text-xl"
@@ -142,10 +142,11 @@ export default function Page() {
               <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                 Want to chat? Just shoot me a dm{" "}
                 <Link
-                  href={DATA.contact.social.X.url}
-                  className="text-blue-500 hover:underline"
+                 href={`https://mail.google.com/mail/?view=cm&fs=1&to=${DATA.contact.social.email.url}`}
+                 className="text-blue-500 hover:underline"
+                 rel="noopener noreferrer" // Security measure
                 >
-                  with a direct question on twitter
+                  with a direct question 
                 </Link>{" "}
                 and I&apos;ll respond whenever I can. I will ignore all
                 soliciting.
