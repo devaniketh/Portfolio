@@ -158,7 +158,7 @@ export default function Page() {
                 <Link
                   href={`https://mail.google.com/mail/?view=cm&fs=1&to=${DATA.contact.social.email.url}`}
                   className="text-blue-500 hover:underline"
-                  rel="noopener noreferrer" // Security measure
+                  rel="noopener noreferrer" 
                 >
                   with a direct question
                 </Link>{" "}

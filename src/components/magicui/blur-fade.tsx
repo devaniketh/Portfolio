@@ -30,8 +30,6 @@ const BlurFade = ({
   blur = "6px",
 }: BlurFadeProps) => {
   const ref = useRef(null);
-  
-  // Type assertion added here
   const inViewResult = useInView(ref, { once: true, margin: inViewMargin as any });
   
   const isInView = !inView || inViewResult;
