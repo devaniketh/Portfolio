@@ -93,38 +93,35 @@ export const DATA = {
       video: 
         "",
     },
-    // {
-    //   title: "Magic UI",
-    //   href: "https://magicui.design",
-    //   dates: "June 2023 - Present",
-    //   active: true,
-    //   description:
-    //     "Designed, developed and sold animated UI components for developers.",
-    //   technologies: [
-    //     "Next.js",
-    //     "Typescript",
-    //     "PostgreSQL",
-    //     "Prisma",
-    //     "TailwindCSS",
-    //     "Stripe",
-    //     "Shadcn UI",
-    //     "Magic UI",
-    //   ],
-    //   links: [
-    //     {
-    //       type: "Website",
-    //       href: "https://magicui.design",
-    //       icon: <Icons.globe className="size-3" />,
-    //     },
-    //     {
-    //       type: "Source",
-    //       href: "https://github.com/magicuidesign/magicui",
-    //       icon: <Icons.github className="size-3" />,
-    //     },
-    //   ],
-    //   image: "",
-    //   video: "https://cdn.magicui.design/bento-grid.mp4",
-    // },
+    {
+      title: "SecureInsure",
+      href: "secure-insure.vercel.app",
+      dates: "",
+      active: true,
+      description:
+        "SecureInsure leverages blockchain and smart contracts to enhance security, transparency, and efficiency in the insurance industry. Blockchain ensures a tamper-proof ledger for transactions, reducing fraud. Smart contracts automate claims processing and policy issuance, minimizing costs and eliminating intermediaries. This approach improves trust and customer satisfaction through transparent and streamlined operations.",
+      technologies: [
+        "Solidity",
+        "React",
+        "WAGMI",
+        "TailwindCSS",
+        "NodeJs",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "secure-insure.vercel.app",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/AnikethDeb2004/SecureInsure",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/hello.png",
+      video: "",
+    },
     // {
     //   title: "llm.report",
     //   href: "https://llm.report",
