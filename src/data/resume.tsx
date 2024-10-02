@@ -80,7 +80,7 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "zk-re-use-it.vercel.app",
+          href: "https://zk-re-use-it.vercel.app",
           icon: <Icons.globe className="size-3" />,
         },
         {
@@ -110,7 +110,7 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "secure-insure.vercel.app",
+          href: "https://secure-insure.vercel.app",
           icon: <Icons.globe className="size-3" />,
         },
         {
