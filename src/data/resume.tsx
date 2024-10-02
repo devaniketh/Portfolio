@@ -3,10 +3,10 @@ import { HomeIcon } from "lucide-react";
 
 export const DATA = {
   name: "Aniketh Deb",
-  initials: "DV",
-  url: "https://dillion.io",
-  location: "San Francisco, CA",
-  locationLink: "https://www.google.com/maps/place/sanfrancisco",
+  initials: "",
+  url: "",
+  location: "",
+  locationLink: "",
   description:
     "Build it, ship it, and watch the magic happen—let's create something extraordinary together!🚀",
   summary:
