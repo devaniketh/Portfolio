@@ -3,10 +3,10 @@ import { HomeIcon } from "lucide-react";
 
 export const DATA = {
   name: "Aniketh Deb",
-  initials: "",
-  url: "",
-  location: "",
-  locationLink: "",
+  initials: "DV",
+  url: "https://dillion.io",
+  location: "San Francisco, CA",
+  locationLink: "https://www.google.com/maps/place/sanfrancisco",
   description:
     "Build it, ship it, and watch the magic happen—let's create something extraordinary together!🚀",
   summary:
@@ -80,7 +80,7 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "https://zk-re-use-it.vercel.app",
+          href: "zk-re-use-it.vercel.app",
           icon: <Icons.globe className="size-3" />,
         },
         {
