@@ -45,7 +45,7 @@ export const DATA = {
       },
       email: {
         name: "Send Email",
-        url: "aniketh.dev7@gmail.com",
+        url: "https://drive.google.com/file/d/1S5rmDCVDkC6iVDwqstcAFyPxDdVUTzVA/view?usp=drive_link",
         icon: Icons.email,
         navbar: false,
       },    
