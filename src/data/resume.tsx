@@ -17,6 +17,7 @@ export const DATA = {
     "Next.js",
     "Typescript",
     "Node.js",
+    "Solidity",
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
