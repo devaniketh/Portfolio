@@ -28,7 +28,7 @@ export const DATA = {
     social: {
       GitHub: {
         name: "GitHub",
-        url: "https://github.com/AnikethDeb2004",
+        url: "https://github.com/devaniketh",
         icon: Icons.github,
         navbar: true,
       },
