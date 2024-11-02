@@ -18,6 +18,7 @@ export const DATA = {
     "Typescript",
     "Node.js",
     "Solidity",
+    "Docker",
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
