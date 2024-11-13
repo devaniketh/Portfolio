@@ -99,7 +99,7 @@ export default function Page() {
         </div>
       </section>
 
-      {/* Projects section
+      Projects section
       <section id="projects">
         <div className="space-y-12 w-full py-12">
           <BlurFade delay={BLUR_FADE_DELAY * 11}>
@@ -140,7 +140,7 @@ export default function Page() {
             ))}
           </div>
         </div>
-      </section> */}
+      </section>
 
       
 
