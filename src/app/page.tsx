@@ -142,8 +142,7 @@ export default function Page() {
         </div>
       </section>
 
-      
-
+    
 {/* Contact section */}
 <section id="contact">
   <div className="grid items-center justify-center gap-4 px-4 text-center md:px-6 w-full py-12">
@@ -172,6 +171,3 @@ export default function Page() {
     </main>
   );
 }
-
-
-// "Curious about what I bring to the table? Take a look at my resume, and let's explore how I can contribute to your team!"
