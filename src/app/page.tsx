@@ -144,32 +144,31 @@ export default function Page() {
 
       
 
-      {/* Contact section */}
-      <section id="contact">
-        <div className="grid items-center justify-center gap-4 px-4 text-center md:px-6 w-full py-12">
-          <BlurFade delay={BLUR_FADE_DELAY * 16}>
-            <div className="space-y-3">
-              {/* <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
-                Contact
-              </div> */}
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-                Hire Me
-              </h2>
-              <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-              "Curious about what I bring to the table? Take a look at my{" "}
-                <Link
-                  href={`https://drive.google.com/file/d/1S5rmDCVDkC6iVDwqstcAFyPxDdVUTzVA/view?usp=drive_link=${DATA.contact.social.email.url}`}
-                  className="text-blue-500 hover:underline"
-                  rel="noopener noreferrer" 
-                >
-                  resume,
-                </Link>{" "}
-                and let&apos;s explore how I can contribute to your team!"
-              </p>
-            </div>
-          </BlurFade>
-        </div>
-      </section>
+{/* Contact section */}
+<section id="contact">
+  <div className="grid items-center justify-center gap-4 px-4 text-center md:px-6 w-full py-12">
+    <BlurFade delay={BLUR_FADE_DELAY * 16}>
+      <div className="space-y-3">
+        <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
+          Hire Me
+        </h2>
+        <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+          "Curious about what I bring to the table? Take a look at my{" "}
+          <Link
+            href={`https://drive.google.com/uc?export=download&id=1Djv7lSaaqIFWSsKHoMkMSUe3QrHR5rBB`}
+            className="text-blue-500 hover:underline"
+            rel="noopener noreferrer"
+            download="resume.pdf"
+          >
+            resume,
+          </Link>{" "}
+          and let&apos;s explore how I can contribute to your team!"
+        </p>
+      </div>
+    </BlurFade>
+  </div>
+</section>
+
     </main>
   );
 }
