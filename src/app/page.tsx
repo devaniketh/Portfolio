@@ -154,7 +154,7 @@ export default function Page() {
         <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
           "Curious about what I bring to the table? Take a look at my{" "}
           <Link
-            href={`https://drive.google.com/uc?export=download&id=1Djv7lSaaqIFWSsKHoMkMSUe3QrHR5rBB`}
+            href={`https://drive.google.com/file/d/1Klr_SUW7gvDgCGd8jk2bIALx9fpIEPHY/view?usp=sharing`}
             className="text-blue-500 hover:underline"
             rel="noopener noreferrer"
             download="resume.pdf"
