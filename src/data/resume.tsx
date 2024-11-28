@@ -10,15 +10,17 @@ export const DATA = {
   description:
     "Build it, ship it, and watch the magic happen—let's create something extraordinary together!🚀",
   summary:
-    "At the end of 2022, I quit my job as a software engineer to go fulltime into building and scaling my own SaaS businesses. In the past, [I pursued a double degree in computer science and business](/#education), [interned at big tech companies in Silicon Valley](https://www.youtube.com/watch?v=d-LJ2e5qKdE), and [competed in over 21 hackathons for fun](/#hackathons). I also had the pleasure of being a part of the first ever in-person cohort of buildspace called [buildspace sf1](https://buildspace.so/sf1).",
+    "",
   avatarUrl: "/me.png",
   skills: [
     "React",
     "Next.js",
     "Typescript",
+    "Go",
     "Node.js",
     "Solidity",
     "Docker",
+    "AWS",
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
@@ -69,15 +71,14 @@ export const DATA = {
       dates: "",
       active: true,
       description:
-        "ZKREuseit is a decentralized marketplace built on the Reclaim Protocol and Polygon zkEVM. By eliminating intermediaries, we ensure user control over data and transactions. Our platform enhances privacy and security through zero-knowledge proofs, enabling low-cost, scalable transactions while creating a fairer resale ecosystem for buyers and sellers. ",
+        "ZkReUseIt is a decentralized marketplace on the Reclaim Protocol and Polygon zkEVM. It ensures user control over data and transactions by removing intermediaries. With zero-knowledge proofs, the platform offers secure, private, and low-cost transactions, creating a fair resale ecosystem for buyers and sellers.",
       technologies: [
         "Reclaim Protocol-SDK's",
         "Typescript",
         "Solidity",
         "Ether.Js",
         "TailwindCSS",
-        "React",
-      
+        "React",     
       ],
       links: [
         {
@@ -87,7 +88,7 @@ export const DATA = {
         },
         {
           type: "Source",
-          href: "https://github.com/AnikethDeb2004/Zk-ReUseIt.git",
+          href: "https://github.com/devaniketh/Zk-ReUseIt.git",
           icon: <Icons.github className="size-3" />,
         },
       ],
@@ -101,7 +102,7 @@ export const DATA = {
       dates: "",
       active: true,
       description:
-        "SecureInsure leverages blockchain and smart contracts to enhance security, transparency, and efficiency in the insurance industry. Blockchain ensures a tamper-proof ledger for transactions, reducing fraud. Smart contracts automate claims processing and policy issuance, minimizing costs and eliminating intermediaries. This approach improves trust and customer satisfaction through transparent and streamlined operations.",
+        "SecureInsure uses blockchain and smart contracts to transform insurance with enhanced security, transparency, and efficiency. Blockchain ensures a tamper-proof ledger, reducing fraud, while smart contracts automate claims and policy processes, cutting costs and intermediaries for a more trusted and seamless experience.",
       technologies: [
         "Solidity",
         "React",
@@ -117,7 +118,7 @@ export const DATA = {
         },
         {
           type: "Source",
-          href: "https://github.com/AnikethDeb2004/SecureInsure",
+          href: "https://github.com/devaniketh/SecureInsure",
           icon: <Icons.github className="size-3" />,
         },
       ],
