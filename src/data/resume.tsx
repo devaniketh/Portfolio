@@ -12,16 +12,16 @@ export const DATA = {
   summary:
     "",
   avatarUrl: "/me.png",
-  skills: [
-    "React",
-    "Next.js",
-    "Typescript",
-    "Go",
-    "Node.js",
-    "Solidity",
-    "Docker",
-    "AWS",
-  ],
+  // skills: [
+  //   "React",
+  //   "Next.js",
+  //   "Typescript",
+  //   "Go",
+  //   "Node.js",
+  //   "Solidity",
+  //   "Docker",
+  //   "AWS",
+  // ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
   ],
@@ -64,67 +64,67 @@ export const DATA = {
   //   // Education data...
   // ],
   
-  projects: [
-    {
-      title: "ZK-ReUseIt",
-      href: "zk-re-use-it.vercel.app",
-      dates: "",
-      active: true,
-      description:
-        "ZkReUseIt is a decentralized marketplace on the Reclaim Protocol and Polygon zkEVM. It ensures user control over data and transactions by removing intermediaries. With zero-knowledge proofs, the platform offers secure, private, and low-cost transactions, creating a fair resale ecosystem for buyers and sellers.",
-      technologies: [
-        "Reclaim Protocol-SDK's",
-        "Typescript",
-        "Solidity",
-        "Ether.Js",
-        "TailwindCSS",
-        "React",     
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "zk-re-use-it.vercel.app",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/devaniketh/Zk-ReUseIt.git",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "/hi.png",
-      video: 
-        "",
-    },
-    {
-      title: "SecureInsure",
-      href: "secure-insure.vercel.app",
-      dates: "",
-      active: true,
-      description:
-        "SecureInsure uses blockchain and smart contracts to transform insurance with enhanced security, transparency, and efficiency. Blockchain ensures a tamper-proof ledger, reducing fraud, while smart contracts automate claims and policy processes, cutting costs and intermediaries for a more trusted and seamless experience.",
-      technologies: [
-        "Solidity",
-        "React",
-        "WAGMI",
-        "TailwindCSS",
-        "NodeJs",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://secure-insure.vercel.app",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/devaniketh/SecureInsure",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "/hello.png",
-      video: "",
-    },
+  // projects: [
+  //   {
+  //     title: "ZK-ReUseIt",
+  //     href: "zk-re-use-it.vercel.app",
+  //     dates: "",
+  //     active: true,
+  //     description:
+  //       "ZkReUseIt is a decentralized marketplace on the Reclaim Protocol and Polygon zkEVM. It ensures user control over data and transactions by removing intermediaries. With zero-knowledge proofs, the platform offers secure, private, and low-cost transactions, creating a fair resale ecosystem for buyers and sellers.",
+  //     technologies: [
+  //       "Reclaim Protocol-SDK's",
+  //       "Typescript",
+  //       "Solidity",
+  //       "Ether.Js",
+  //       "TailwindCSS",
+  //       "React",     
+  //     ],
+  //     links: [
+  //       {
+  //         type: "Website",
+  //         href: "zk-re-use-it.vercel.app",
+  //         icon: <Icons.globe className="size-3" />,
+  //       },
+  //       {
+  //         type: "Source",
+  //         href: "https://github.com/devaniketh/Zk-ReUseIt.git",
+  //         icon: <Icons.github className="size-3" />,
+  //       },
+  //     ],
+  //     image: "/hi.png",
+  //     video: 
+  //       "",
+  //   },
+  //   {
+  //     title: "SecureInsure",
+  //     href: "secure-insure.vercel.app",
+  //     dates: "",
+  //     active: true,
+  //     description:
+  //       "SecureInsure uses blockchain and smart contracts to transform insurance with enhanced security, transparency, and efficiency. Blockchain ensures a tamper-proof ledger, reducing fraud, while smart contracts automate claims and policy processes, cutting costs and intermediaries for a more trusted and seamless experience.",
+  //     technologies: [
+  //       "Solidity",
+  //       "React",
+  //       "WAGMI",
+  //       "TailwindCSS",
+  //       "NodeJs",
+  //     ],
+  //     links: [
+  //       {
+  //         type: "Website",
+  //         href: "https://secure-insure.vercel.app",
+  //         icon: <Icons.globe className="size-3" />,
+  //       },
+  //       {
+  //         type: "Source",
+  //         href: "https://github.com/devaniketh/SecureInsure",
+  //         icon: <Icons.github className="size-3" />,
+  //       },
+  //     ],
+  //     image: "/hello.png",
+  //     video: "",
+  //   },
     // {
     //   title: "llm.report",
     //   href: "https://llm.report",
@@ -187,5 +187,5 @@ export const DATA = {
     //   video:
     //     "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
     // },
-  ],
+  // ],
 } as const;

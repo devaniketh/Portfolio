@@ -83,7 +83,7 @@ export default function Page() {
       </section> 
       */}
 
-      {/* Skills section */}
+      {/* Skills section
       <section id="skills">
         <div className="flex min-h-0 flex-col gap-y-3 justify-center items-center">
           <BlurFade delay={BLUR_FADE_DELAY * 9}>
@@ -97,9 +97,9 @@ export default function Page() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
-      {/* Projects section */}
+      {/* Projects section
       <section id="projects">
         <div className="space-y-12 w-full py-12">
           <BlurFade delay={BLUR_FADE_DELAY * 11}>
@@ -140,7 +140,7 @@ export default function Page() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
     
 {/* Contact section */}
